@@ -1,14 +1,13 @@
 {
-  "name": "v3-components",
-  "type": "module",
+  "name": "v3-widgets",
   "version": "0.0.1",
-  "main": "dist/v3-components.es.js",
+  "main": "dist/v3-widgets.es.js",
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "vite",
-    "serve": "node devserver.js",
+    "serve": "node devserver.mjs",
     "build": "vite build --config ./build.config.js",
     "preview": "vite preview"
   },

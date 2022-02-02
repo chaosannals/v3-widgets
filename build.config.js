@@ -12,8 +12,8 @@ export default defineConfig({
         outDir: 'dist',
         lib: {
             entry: resolve(__dirname, 'src', 'all.js'),
-            name: 'v3-components',
-            fileName: mode => `v3-components.${mode}.js`,
+            name: 'v3-widgets',
+            fileName: mode => `v3-widgets.${mode}.js`,
         },
         rollupOptions: {
             external: ['vue', 'lodash'],

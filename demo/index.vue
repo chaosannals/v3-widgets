@@ -1,3 +1,3 @@
 <template>
-    <div class="index-demo-page">v3-components</div>
+    <div class="index-demo-page">v3-widgets</div>
 </template>

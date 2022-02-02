@@ -2,4 +2,4 @@
 /public/
 /index.html
 /*.config.js
-/devserver.js
+/*.mjs
