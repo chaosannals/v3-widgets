@@ -7,7 +7,6 @@
   ],
   "scripts": {
     "dev": "vite",
-    "serve": "node devserver.mjs",
     "build": "vite build --config ./build.config.js",
     "preview": "vite preview"
   },

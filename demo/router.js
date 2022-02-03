@@ -16,8 +16,7 @@ function loadRoutes() {
     const all = Object.assign(lv1, lv2);
     for (let k in all) {
         if (k.endsWith('-page.vue')) {
-            let t = k.substring(11, k.length - 9);
-            let p = `${t}-html`;
+            let p = k.substring(11, k.length - 9);
             let n = k.substring(11, k.length - 4).replace('/', '-');
             result.push({
                 name: n,
